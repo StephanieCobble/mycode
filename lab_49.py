@@ -26,7 +26,7 @@ def main():
             print("Too high!")
             rounds + 1
 
-        if guess < num:
+        elif guess < num:
             print("Too low!")
             rounds + 1
 
