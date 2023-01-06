@@ -32,3 +32,4 @@ def main():
 
         else:
             print("Correct!")
+main()
