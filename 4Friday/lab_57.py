@@ -37,11 +37,11 @@ def main():
     counter = 0
     while counter < 3 and answer != "a":
         counter += 1 # adds 1 to the counter for each wrong answer. At 3, the answer will print
-        answer = input(f'Chosose the correct answer: ').lower()  # lowercase the user input
+        answer = input(f'Choose the correct answer: ').lower()  # lowercase the user input
         if answer == "a":
             print(f'Correct! The quote is: {correct}')
         elif counter == 3: # at 3 rounds, answer will print
-            print(f'Sorry. the answer we\'re looing for was a: {correct}')
+            print(f'Sorry. the answer we\'re looking for was a: {correct}')
         else: # keeps going until counter hits 3 or user gets the answer correct 
             print('Sorry, that\'s incorrect!')
         
