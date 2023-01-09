@@ -13,7 +13,7 @@ def main():
 
     counter = 0
     with open("dracula.txt","r") as book:
-        with open("vampytimex.txt","w") as vamp:
+        with open("vampytimes.txt","w") as vamp:
             for line in book:
                 if "vampire" in line.lower():
                     print(line)
